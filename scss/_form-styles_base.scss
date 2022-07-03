@@ -1,0 +1,27 @@
+.form-item {
+	display: block;
+	padding: 5px 10px;
+	width: 100%;
+
+	color: #333;
+	line-height: 180%;
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+	&--red {
+		color: #b33;
+		border-color: #b33;
+	}
+	&--green {
+		color: #3b3;
+		border-color: #3b3;
+	}
+	&--blue {
+		color: #33b;
+		border-color: #33b;
+	}
+}
+
+input[type="text"] {
+}

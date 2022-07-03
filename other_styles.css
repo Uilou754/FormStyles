@@ -1,0 +1,10 @@
+.inner {
+  display: block;
+  margin: 0px auto;
+  width: 960px; }
+
+label {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 100%; }

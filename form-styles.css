@@ -1,0 +1,18 @@
+.form-item {
+  display: block;
+  padding: 5px 10px;
+  width: 100%;
+  color: #333;
+  line-height: 180%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px; }
+  .form-item--red {
+    color: #b33;
+    border-color: #b33; }
+  .form-item--green {
+    color: #3b3;
+    border-color: #3b3; }
+  .form-item--blue {
+    color: #33b;
+    border-color: #33b; }
