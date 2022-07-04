@@ -138,7 +138,7 @@ input[type=tel].form-item--blue:focus-visible {
   border: 2px solid #33b;
 }
 
-input[type=mail].form-item {
+input[type=email].form-item {
   display: block;
   padding: 5px 10px;
   color: #333;
@@ -149,36 +149,81 @@ input[type=mail].form-item {
   -webkit-transform: border-width 0.5s ease;
           transform: border-width 0.5s ease;
 }
-input[type=mail].form-item:focus-visible {
+input[type=email].form-item:focus-visible {
   border: 2px solid #ccc;
 }
-input[type=mail].form-item--full {
+input[type=email].form-item--full {
   width: 100%;
 }
-input[type=mail].form-item--red {
+input[type=email].form-item--red {
   color: #b33;
   background-color: #fcc;
   border-color: #b33;
 }
-input[type=mail].form-item--red:focus-visible {
+input[type=email].form-item--red:focus-visible {
   outline: auto;
   border: 2px solid #b33;
 }
-input[type=mail].form-item--green {
+input[type=email].form-item--green {
   color: #3b3;
   background-color: #cfc;
   border-color: #3b3;
 }
-input[type=mail].form-item--green:focus-visible {
+input[type=email].form-item--green:focus-visible {
   outline: auto;
   border: 2px solid #3b3;
 }
-input[type=mail].form-item--blue {
+input[type=email].form-item--blue {
   color: #33b;
   background-color: #ccf;
   border-color: #33b;
 }
-input[type=mail].form-item--blue:focus-visible {
+input[type=email].form-item--blue:focus-visible {
+  outline: auto;
+  border: 2px solid #33b;
+}
+
+input[type=number].form-item {
+  display: block;
+  padding: 5px 10px;
+  color: #333;
+  line-height: 180%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-transform: border-width 0.5s ease;
+          transform: border-width 0.5s ease;
+}
+input[type=number].form-item:focus-visible {
+  border: 2px solid #ccc;
+}
+input[type=number].form-item--full {
+  width: 100%;
+}
+input[type=number].form-item--red {
+  color: #b33;
+  background-color: #fcc;
+  border-color: #b33;
+}
+input[type=number].form-item--red:focus-visible {
+  outline: auto;
+  border: 2px solid #b33;
+}
+input[type=number].form-item--green {
+  color: #3b3;
+  background-color: #cfc;
+  border-color: #3b3;
+}
+input[type=number].form-item--green:focus-visible {
+  outline: auto;
+  border: 2px solid #3b3;
+}
+input[type=number].form-item--blue {
+  color: #33b;
+  background-color: #ccf;
+  border-color: #33b;
+}
+input[type=number].form-item--blue:focus-visible {
   outline: auto;
   border: 2px solid #33b;
 }
