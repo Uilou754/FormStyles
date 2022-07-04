@@ -1,4 +1,4 @@
-.form-item {
+input[type=text].form-item {
   display: block;
   padding: 5px 10px;
   width: 100%;
@@ -10,18 +10,30 @@
   -webkit-transform: border-width 0.5s ease;
           transform: border-width 0.5s ease;
 }
-.form-item:focus-visible {
-  border-width: 2px;
+input[type=text].form-item:focus-visible {
+  border: 2px solid #ccc;
 }
-.form-item--red {
+input[type=text].form-item--red {
   color: #b33;
+  background-color: #fcc;
   border-color: #b33;
 }
-.form-item--green {
+input[type=text].form-item--red:focus-visible {
+  border: 2px solid #b33;
+}
+input[type=text].form-item--green {
   color: #3b3;
+  background-color: #cfc;
   border-color: #3b3;
 }
-.form-item--blue {
+input[type=text].form-item--green:focus-visible {
+  border: 2px solid #3b3;
+}
+input[type=text].form-item--blue {
   color: #33b;
+  background-color: #ccf;
   border-color: #33b;
+}
+input[type=text].form-item--blue:focus-visible {
+  border: 2px solid #33b;
 }
