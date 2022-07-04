@@ -1,7 +1,11 @@
+.form-item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 input[type=text].form-item {
   display: block;
   padding: 5px 10px;
-  width: 100%;
   color: #333;
   line-height: 180%;
   background: white;
@@ -12,6 +16,9 @@ input[type=text].form-item {
 }
 input[type=text].form-item:focus-visible {
   border: 2px solid #ccc;
+}
+input[type=text].form-item--full {
+  width: 100%;
 }
 input[type=text].form-item--red {
   color: #b33;
