@@ -9,6 +9,12 @@
 	border: 1px solid #ccc;
 	border-radius: 5px;
 
+	transform: border-width .5s ease;
+
+	&:focus-visible {
+		border-width: 2px;
+	}
+
 	&--red {
 		color: #b33;
 		border-color: #b33;
