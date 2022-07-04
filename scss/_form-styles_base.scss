@@ -80,6 +80,56 @@ input[type="text"].form-item {
 //	input[type=password]
 //===============================================================================
 input[type="password"].form-item {
+	display: block;
+	padding: 5px 10px;
+
+	color: #333;
+	line-height: 180%;
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+	transform: border-width .5s ease;
+
+	// フォーカスされた時
+	&:focus-visible {
+		border: 2px solid #ccc;
+	}
+
+	&--full {
+		width: 100%;
+	}
+
+	&--red {
+		color: $red;
+		background-color: $red-light;
+		border-color: $red;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $red;
+		}
+	}
+	&--green {
+		color: $green;
+		background-color: $green-light;
+		border-color: $green;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $green;
+		}
+	}
+	&--blue {
+		color: $blue;
+		background-color: $blue-light;
+		border-color: $blue;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $blue;
+		}
+	}
 }
 
 
@@ -87,6 +137,56 @@ input[type="password"].form-item {
 //	input[type=tel]
 //===============================================================================
 input[type="tel"].form-item {
+	display: block;
+	padding: 5px 10px;
+
+	color: #333;
+	line-height: 180%;
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+	transform: border-width .5s ease;
+
+	// フォーカスされた時
+	&:focus-visible {
+		border: 2px solid #ccc;
+	}
+
+	&--full {
+		width: 100%;
+	}
+
+	&--red {
+		color: $red;
+		background-color: $red-light;
+		border-color: $red;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $red;
+		}
+	}
+	&--green {
+		color: $green;
+		background-color: $green-light;
+		border-color: $green;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $green;
+		}
+	}
+	&--blue {
+		color: $blue;
+		background-color: $blue-light;
+		border-color: $blue;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $blue;
+		}
+	}
 }
 
 
@@ -95,6 +195,56 @@ input[type="tel"].form-item {
 //	input[type=mail]
 //===============================================================================
 input[type="mail"].form-item {
+	display: block;
+	padding: 5px 10px;
+
+	color: #333;
+	line-height: 180%;
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+	transform: border-width .5s ease;
+
+	// フォーカスされた時
+	&:focus-visible {
+		border: 2px solid #ccc;
+	}
+
+	&--full {
+		width: 100%;
+	}
+
+	&--red {
+		color: $red;
+		background-color: $red-light;
+		border-color: $red;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $red;
+		}
+	}
+	&--green {
+		color: $green;
+		background-color: $green-light;
+		border-color: $green;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $green;
+		}
+	}
+	&--blue {
+		color: $blue;
+		background-color: $blue-light;
+		border-color: $blue;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $blue;
+		}
+	}
 }
 
 
@@ -143,6 +293,56 @@ input[type="color"].form-item {
 //	input[type=url]
 //===============================================================================
 input[type="url"].form-item {
+	display: block;
+	padding: 5px 10px;
+
+	color: #333;
+	line-height: 180%;
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+	transform: border-width .5s ease;
+
+	// フォーカスされた時
+	&:focus-visible {
+		border: 2px solid #ccc;
+	}
+
+	&--full {
+		width: 100%;
+	}
+
+	&--red {
+		color: $red;
+		background-color: $red-light;
+		border-color: $red;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $red;
+		}
+	}
+	&--green {
+		color: $green;
+		background-color: $green-light;
+		border-color: $green;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $green;
+		}
+	}
+	&--blue {
+		color: $blue;
+		background-color: $blue-light;
+		border-color: $blue;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $blue;
+		}
+	}
 }
 
 
@@ -159,6 +359,56 @@ input[type="file"].form-item {
 //	input[type=date]
 //===============================================================================
 input[type="date"].form-item {
+	display: block;
+	padding: 5px 10px;
+
+	color: #333;
+	line-height: 180%;
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+	transform: border-width .5s ease;
+
+	// フォーカスされた時
+	&:focus-visible {
+		border: 2px solid #ccc;
+	}
+
+	&--full {
+		width: 100%;
+	}
+
+	&--red {
+		color: $red;
+		background-color: $red-light;
+		border-color: $red;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $red;
+		}
+	}
+	&--green {
+		color: $green;
+		background-color: $green-light;
+		border-color: $green;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $green;
+		}
+	}
+	&--blue {
+		color: $blue;
+		background-color: $blue-light;
+		border-color: $blue;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $blue;
+		}
+	}
 }
 
 
@@ -167,6 +417,56 @@ input[type="date"].form-item {
 //	input[type=time]
 //===============================================================================
 input[type="time"].form-item {
+	display: block;
+	padding: 5px 10px;
+
+	color: #333;
+	line-height: 180%;
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+	transform: border-width .5s ease;
+
+	// フォーカスされた時
+	&:focus-visible {
+		border: 2px solid #ccc;
+	}
+
+	&--full {
+		width: 100%;
+	}
+
+	&--red {
+		color: $red;
+		background-color: $red-light;
+		border-color: $red;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $red;
+		}
+	}
+	&--green {
+		color: $green;
+		background-color: $green-light;
+		border-color: $green;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $green;
+		}
+	}
+	&--blue {
+		color: $blue;
+		background-color: $blue-light;
+		border-color: $blue;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $blue;
+		}
+	}
 }
 
 
@@ -175,6 +475,56 @@ input[type="time"].form-item {
 //	select
 //===============================================================================
 select.form-item {
+	display: block;
+	padding: 5px 10px;
+
+	color: #333;
+	line-height: 180%;
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+	transform: border-width .5s ease;
+
+	// フォーカスされた時
+	&:focus-visible {
+		border: 2px solid #ccc;
+	}
+
+	&--full {
+		width: 100%;
+	}
+
+	&--red {
+		color: $red;
+		background-color: $red-light;
+		border-color: $red;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $red;
+		}
+	}
+	&--green {
+		color: $green;
+		background-color: $green-light;
+		border-color: $green;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $green;
+		}
+	}
+	&--blue {
+		color: $blue;
+		background-color: $blue-light;
+		border-color: $blue;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $blue;
+		}
+	}
 }
 
 
@@ -183,6 +533,56 @@ select.form-item {
 //	textarea
 //===============================================================================
 textarea.form-item {
+	display: block;
+	padding: 5px 10px;
+
+	color: #333;
+	line-height: 180%;
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+	transform: border-width .5s ease;
+
+	// フォーカスされた時
+	&:focus-visible {
+		border: 2px solid #ccc;
+	}
+
+	&--full {
+		width: 100%;
+	}
+
+	&--red {
+		color: $red;
+		background-color: $red-light;
+		border-color: $red;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $red;
+		}
+	}
+	&--green {
+		color: $green;
+		background-color: $green-light;
+		border-color: $green;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $green;
+		}
+	}
+	&--blue {
+		color: $blue;
+		background-color: $blue-light;
+		border-color: $blue;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $blue;
+		}
+	}
 }
 
 
@@ -191,6 +591,56 @@ textarea.form-item {
 //	input[type=submit]
 //===============================================================================
 input[type="submit"].form-item {
+	display: block;
+	padding: 5px 10px;
+
+	color: #333;
+	line-height: 180%;
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+	transform: border-width .5s ease;
+
+	// フォーカスされた時
+	&:focus-visible {
+		border: 2px solid #ccc;
+	}
+
+	&--full {
+		width: 100%;
+	}
+
+	&--red {
+		color: $red;
+		background-color: $red-light;
+		border-color: $red;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $red;
+		}
+	}
+	&--green {
+		color: $green;
+		background-color: $green-light;
+		border-color: $green;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $green;
+		}
+	}
+	&--blue {
+		color: $blue;
+		background-color: $blue-light;
+		border-color: $blue;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $blue;
+		}
+	}
 }
 
 
@@ -199,6 +649,56 @@ input[type="submit"].form-item {
 //	input[type=reset]
 //===============================================================================
 input[type="reset"].form-item {
+	display: block;
+	padding: 5px 10px;
+
+	color: #333;
+	line-height: 180%;
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+	transform: border-width .5s ease;
+
+	// フォーカスされた時
+	&:focus-visible {
+		border: 2px solid #ccc;
+	}
+
+	&--full {
+		width: 100%;
+	}
+
+	&--red {
+		color: $red;
+		background-color: $red-light;
+		border-color: $red;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $red;
+		}
+	}
+	&--green {
+		color: $green;
+		background-color: $green-light;
+		border-color: $green;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $green;
+		}
+	}
+	&--blue {
+		color: $blue;
+		background-color: $blue-light;
+		border-color: $blue;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $blue;
+		}
+	}
 }
 
 
@@ -207,5 +707,55 @@ input[type="reset"].form-item {
 //	button
 //===============================================================================
 button.form-item {
+	display: block;
+	padding: 5px 10px;
+
+	color: #333;
+	line-height: 180%;
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+	transform: border-width .5s ease;
+
+	// フォーカスされた時
+	&:focus-visible {
+		border: 2px solid #ccc;
+	}
+
+	&--full {
+		width: 100%;
+	}
+
+	&--red {
+		color: $red;
+		background-color: $red-light;
+		border-color: $red;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $red;
+		}
+	}
+	&--green {
+		color: $green;
+		background-color: $green-light;
+		border-color: $green;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $green;
+		}
+	}
+	&--blue {
+		color: $blue;
+		background-color: $blue-light;
+		border-color: $blue;
+
+		&:focus-visible {
+			outline: auto;
+			border: 2px solid $blue;
+		}
+	}
 }
 
