@@ -19,6 +19,7 @@ input[type=text].form-item--red {
   border-color: #b33;
 }
 input[type=text].form-item--red:focus-visible {
+  outline: auto;
   border: 2px solid #b33;
 }
 input[type=text].form-item--green {
@@ -27,6 +28,7 @@ input[type=text].form-item--green {
   border-color: #3b3;
 }
 input[type=text].form-item--green:focus-visible {
+  outline: auto;
   border: 2px solid #3b3;
 }
 input[type=text].form-item--blue {
@@ -35,5 +37,6 @@ input[type=text].form-item--blue {
   border-color: #33b;
 }
 input[type=text].form-item--blue:focus-visible {
+  outline: auto;
   border: 2px solid #33b;
 }
