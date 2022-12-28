@@ -587,3 +587,20 @@ button.form-item--blue:focus-visible {
   outline: auto;
   border: 2px solid #33b;
 }
+
+.input-bundle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.input-bundle .input-bundle__text {
+  display: inline-block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.input-bundle *:not(.input-bundle__text) {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}

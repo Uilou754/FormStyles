@@ -809,3 +809,21 @@ button.form-item {
 	}
 }
 
+
+
+
+//===============================================================================
+//	input-bundle
+//===============================================================================
+.input-bundle {
+	display: flex;
+
+	.input-bundle__text {
+		display: inline-block;
+		width: max-content;
+	}
+
+	*:not(.input-bundle__text) {
+		flex: 1;
+	}
+}
