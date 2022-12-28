@@ -9,6 +9,18 @@ html, body {
 	width: 960px;
 }
 
+.body {
+	display: flex;
+	flex-direction: row;
+
+	.global-menu {
+		width: 300px;
+	}
+	article.main-contents {
+		flex: 1;
+	}
+}
+
 .menu {
 	display: block;
 	margin: 0px 0px 30px 0px;

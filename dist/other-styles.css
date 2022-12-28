@@ -1,11 +1,31 @@
 html, body {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+}
 
 .inner {
   display: block;
   margin: 0px auto;
-  width: 960px; }
+  width: 960px;
+}
+
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.body .global-menu {
+  width: 300px;
+}
+.body article.main-contents {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
 
 .menu {
   display: block;
@@ -13,9 +33,12 @@ html, body {
   padding: 10px 30px;
   background: white;
   -webkit-box-shadow: 0px 1px 3px gray;
-  box-shadow: 0px 1px 3px gray; }
-  .menu > li {
-    display: inline-block; }
-    .menu > li > a {
-      display: block;
-      padding: 5px 10px; }
+          box-shadow: 0px 1px 3px gray;
+}
+.menu > li {
+  display: inline-block;
+}
+.menu > li > a {
+  display: block;
+  padding: 5px 10px;
+}
