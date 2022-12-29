@@ -14,9 +14,13 @@ html, body {
 	flex-direction: row;
 
 	.global-menu {
+		padding: 10px 15px;
 		width: 300px;
+		height: 100vh;
+		border-right: 2px solid gray;
 	}
 	article.main-contents {
+		padding: 10px 15px;
 		flex: 1;
 	}
 }
