@@ -1,0 +1,244 @@
+.form-item {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+input[type="text"].form-item,
+input[type="password"].form-item,
+input[type="tel"].form-item,
+input[type="email"].form-item,
+input[type="number"].form-item,
+input[type="url"].form-item,
+input[type="date"].form-item,
+input[type="time"].form-item,
+select.form-item {
+  display: block;
+  padding: 0px 10px;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 180%;
+  background: #f0f0f0;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+  -webkit-transform: color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;
+  -ms-transform: color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;
+  transform: color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease; }
+  input[type="text"].form-item:focus-visible,
+  input[type="password"].form-item:focus-visible,
+  input[type="tel"].form-item:focus-visible,
+  input[type="email"].form-item:focus-visible,
+  input[type="number"].form-item:focus-visible,
+  input[type="url"].form-item:focus-visible,
+  input[type="date"].form-item:focus-visible,
+  input[type="time"].form-item:focus-visible,
+  select.form-item:focus-visible {
+    color: #000000;
+    background-color: #fcfcfc;
+    border-color: #bbbbbb; }
+  input[type="text"].form-item--full,
+  input[type="password"].form-item--full,
+  input[type="tel"].form-item--full,
+  input[type="email"].form-item--full,
+  input[type="number"].form-item--full,
+  input[type="url"].form-item--full,
+  input[type="date"].form-item--full,
+  input[type="time"].form-item--full,
+  select.form-item--full {
+    width: 100%; }
+  input[type="text"].form-item--red,
+  input[type="password"].form-item--red,
+  input[type="tel"].form-item--red,
+  input[type="email"].form-item--red,
+  input[type="number"].form-item--red,
+  input[type="url"].form-item--red,
+  input[type="date"].form-item--red,
+  input[type="time"].form-item--red,
+  select.form-item--red {
+    color: #ff9784;
+    background-color: #fff3f1;
+    border-color: #fcd6cd; }
+    input[type="text"].form-item--red:focus-visible,
+    input[type="password"].form-item--red:focus-visible,
+    input[type="tel"].form-item--red:focus-visible,
+    input[type="email"].form-item--red:focus-visible,
+    input[type="number"].form-item--red:focus-visible,
+    input[type="url"].form-item--red:focus-visible,
+    input[type="date"].form-item--red:focus-visible,
+    input[type="time"].form-item--red:focus-visible,
+    select.form-item--red:focus-visible {
+      color: #ff7764;
+      background-color: #fffbfb;
+      border-color: #ff9784;
+      outline: auto; }
+  input[type="text"].form-item--green,
+  input[type="password"].form-item--green,
+  input[type="tel"].form-item--green,
+  input[type="email"].form-item--green,
+  input[type="number"].form-item--green,
+  input[type="url"].form-item--green,
+  input[type="date"].form-item--green,
+  input[type="time"].form-item--green,
+  select.form-item--green {
+    color: #3b3;
+    background-color: #cfc;
+    border-color: #cfc; }
+    input[type="text"].form-item--green:focus-visible,
+    input[type="password"].form-item--green:focus-visible,
+    input[type="tel"].form-item--green:focus-visible,
+    input[type="email"].form-item--green:focus-visible,
+    input[type="number"].form-item--green:focus-visible,
+    input[type="url"].form-item--green:focus-visible,
+    input[type="date"].form-item--green:focus-visible,
+    input[type="time"].form-item--green:focus-visible,
+    select.form-item--green:focus-visible {
+      color: #cfc;
+      background-color: #cfc;
+      border-color: #cfc;
+      outline: auto; }
+  input[type="text"].form-item--blue,
+  input[type="password"].form-item--blue,
+  input[type="tel"].form-item--blue,
+  input[type="email"].form-item--blue,
+  input[type="number"].form-item--blue,
+  input[type="url"].form-item--blue,
+  input[type="date"].form-item--blue,
+  input[type="time"].form-item--blue,
+  select.form-item--blue {
+    color: #33b;
+    background-color: #ccf;
+    border-color: #ccf; }
+    input[type="text"].form-item--blue:focus-visible,
+    input[type="password"].form-item--blue:focus-visible,
+    input[type="tel"].form-item--blue:focus-visible,
+    input[type="email"].form-item--blue:focus-visible,
+    input[type="number"].form-item--blue:focus-visible,
+    input[type="url"].form-item--blue:focus-visible,
+    input[type="date"].form-item--blue:focus-visible,
+    input[type="time"].form-item--blue:focus-visible,
+    select.form-item--blue:focus-visible {
+      color: #ccf;
+      background-color: #ccf;
+      border-color: #ccf;
+      outline: auto; }
+
+textarea.form-item {
+  display: block;
+  padding: 0px 10px;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 180%;
+  background: #f0f0f0;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+  -webkit-transform: background-color 0.5s ease, border-color 0.5s ease;
+  -ms-transform: background-color 0.5s ease, border-color 0.5s ease;
+  transform: background-color 0.5s ease, border-color 0.5s ease; }
+  textarea.form-item:focus-visible {
+    border: 3px solid #ccc; }
+  textarea.form-item--full {
+    width: 100%; }
+  textarea.form-item--red {
+    color: #ff9784;
+    background-color: #fff3f1;
+    border-color: #fcd6cd; }
+    textarea.form-item--red:focus-visible {
+      color: #ff7764;
+      background-color: #fffbfb;
+      border-color: #ff9784;
+      outline: auto; }
+  textarea.form-item--green {
+    color: #3b3;
+    background-color: #cfc;
+    border-color: #cfc; }
+    textarea.form-item--green:focus-visible {
+      color: #cfc;
+      background-color: #cfc;
+      border-color: #cfc;
+      outline: auto; }
+  textarea.form-item--blue {
+    color: #33b;
+    background-color: #ccf;
+    border-color: #ccf; }
+    textarea.form-item--blue:focus-visible {
+      color: #ccf;
+      background-color: #ccf;
+      border-color: #ccf;
+      outline: auto; }
+
+input[type="submit"].form-item,
+input[type="reset"].form-item,
+button.form-item {
+  display: block;
+  padding: 0px 10px;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 180%;
+  background: #f0f0f0;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+  -webkit-transform: background-color 0.5s ease, border-color 0.5s ease;
+  -ms-transform: background-color 0.5s ease, border-color 0.5s ease;
+  transform: background-color 0.5s ease, border-color 0.5s ease; }
+  input[type="submit"].form-item:focus-visible,
+  input[type="reset"].form-item:focus-visible,
+  button.form-item:focus-visible {
+    border: 3px solid #ccc; }
+  input[type="submit"].form-item--full,
+  input[type="reset"].form-item--full,
+  button.form-item--full {
+    width: 100%; }
+  input[type="submit"].form-item--red,
+  input[type="reset"].form-item--red,
+  button.form-item--red {
+    color: #ff9784;
+    background-color: #fff3f1;
+    border-color: #fcd6cd; }
+    input[type="submit"].form-item--red:focus-visible,
+    input[type="reset"].form-item--red:focus-visible,
+    button.form-item--red:focus-visible {
+      color: #ff7764;
+      background-color: #fffbfb;
+      border-color: #ff9784;
+      outline: auto; }
+  input[type="submit"].form-item--green,
+  input[type="reset"].form-item--green,
+  button.form-item--green {
+    color: #3b3;
+    background-color: #cfc;
+    border-color: #cfc; }
+    input[type="submit"].form-item--green:focus-visible,
+    input[type="reset"].form-item--green:focus-visible,
+    button.form-item--green:focus-visible {
+      color: #cfc;
+      background-color: #cfc;
+      border-color: #cfc;
+      outline: auto; }
+  input[type="submit"].form-item--blue,
+  input[type="reset"].form-item--blue,
+  button.form-item--blue {
+    color: #33b;
+    background-color: #ccf;
+    border-color: #ccf; }
+    input[type="submit"].form-item--blue:focus-visible,
+    input[type="reset"].form-item--blue:focus-visible,
+    button.form-item--blue:focus-visible {
+      color: #ccf;
+      background-color: #ccf;
+      border-color: #ccf;
+      outline: auto; }
+
+.input-bundle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .input-bundle .input-bundle__text {
+    display: inline-block;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content; }
+  .input-bundle *:not(.input-bundle__text) {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }

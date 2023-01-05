@@ -1,9 +1,0 @@
-@import "form-styles_base";
-
-@media screen and (max-width: 1200px) and (min-width: 480px) {
-	@import "form-styles_tab";
-}
-
-@media screen and (max-width: 480px) {
-	@import "form-styles_sp";
-}
